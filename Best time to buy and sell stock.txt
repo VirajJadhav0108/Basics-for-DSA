@@ -1,20 +1,18 @@
             class Solution {
 public:
-    int findMaxConsecutiveOnes(vector<int>& nums) {
-        int maxCount = 0;
-    int currentCount = 0;
+    int maxProfit(vector<int>& prices) {
+          int minPrice = INT_MAX;
+    int maxProfit = 0;
 
-    for (int num : nums) {
-        if (num == 1) {
-            currentCount++;
-            maxCount = max(maxCount, currentCount);
+    for (int price : prices) {
+        if (price < minPrice) {
+            minPrice = price; 
         } else {
-            currentCount = 0;
+            maxProfit = max(maxProfit, price - minPrice); 
         }
     }
 
-    return maxCount;
+    return maxProfit;
 
-        
     }
 };
