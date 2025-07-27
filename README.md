@@ -48,14 +48,7 @@ This repository covers the following major topics:
 - Timed mock tests for placement-style practice
 - Optimization and edge-case handling
 
-## 🚀 Getting Started
 
-To run the programs locally:
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/VirajJadhav0108/DSA-in-CPP.git
-   cd DSA-in-CPP
 
 
 
