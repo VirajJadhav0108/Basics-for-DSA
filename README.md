@@ -1,34 +1,61 @@
-# Basics-for-DSA
-Welcome to my coding practice repository! This is where I’m keeping track of everything I’m learning as I grow my programming skills.
-## 📚 Topics I've Learned So Far
-### ✅ 1. Basic Maths
-- Learned how to solve simple math problems using code
-- Practiced number operations, factors, primes, and basic logic
-- Started using loops and conditions to solve maths-related problems
-### ✅ 2. Arrays
-- Learned how to store and access multiple values in an array
-- Did problems like finding maximum/minimum, reversing arrays, and basic sorting
-- Practiced traversing arrays using loops and solving real coding questions
-### ✅ 3. Strings
-- Learned what strings are and how to use them in code
-- Practiced common operations like reversing a string, checking for palindrome, and counting characters
-- Got comfortable with string indexing and manipulation
-- ### ✅ 4. Recursion
-- Understood what recursion is and how it works (functions calling themselves)
-- Solved problems like factorial, Fibonacci, and basic backtracking questions
-- Learned how to think in a step-by-step recursive way
-## 🛠 What's in this repository?
-You’ll find my code files for each of the above topics, with practice problems I’ve tried solving.
+# 📘 Data Structures and Algorithms in C++
 
-## 🧠 What I’ve Gained
-- Better problem-solving skills
-- Confidence in writing basic programs
-- Understanding of how to break down a problem into smaller parts
+Welcome to my **Data Structures and Algorithms (DSA)** study repository! This repo contains my C++ implementations and notes while learning and practicing core DSA concepts. It includes structured topic-wise folders, source code, explanations, and problems solved during the learning journey.
 
-## 🚀 What's Next?
-I’ll be moving on to:
-- Linked lists, stacks and queues
-- Trees and graphs(intro)
-- Then finally revision and mock problems
+## 🧠 Topics Covered
+
+This repository covers the following major topics:
+
+### 1. 🔢 Basic Mathematics
+- Prime numbers, GCD, LCM
+- Sieve of Eratosthenes
+- Modular arithmetic and fast exponentiation
+
+### 2. 📊 Arrays
+- One-dimensional and two-dimensional arrays
+- Prefix sums, sliding window, Kadane’s Algorithm
+- Sorting techniques and binary search applications
+
+### 3. 🔠 Strings
+- Character arrays vs `std::string`
+- Palindromes, anagrams
+- String pattern matching basics
+
+### 4. 🔁 Recursion & Backtracking
+- Basic recursion patterns
+- Factorial, Fibonacci, subset generation
+- Solving problems using backtracking
+
+### 5. 🔗 Linked Lists
+- Singly and doubly linked lists
+- Insertion, deletion, reversal
+- Detecting cycles and solving problems like merge and intersection
+
+### 6. 🥞 Stacks & Queues
+- Stack using arrays and linked lists
+- Infix to postfix, balanced brackets
+- Queue and circular queue implementation
+- Deque and applications
+
+### 7. 🌳 Trees & Graphs (Intro)
+- Binary Trees: traversals (inorder, preorder, postorder)
+- Binary Search Tree basics
+- Introduction to Graphs and representations (adjacency list/matrix)
+- BFS and DFS basics
+
+### 8. 🔁 Revision & Mock Problems
+- Mixed-topic problem solving
+- Timed mock tests for placement-style practice
+- Optimization and edge-case handling
+
+## 🚀 Getting Started
+
+To run the programs locally:
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/VirajJadhav0108/DSA-in-CPP.git
+   cd DSA-in-CPP
+
 
 
