@@ -1,0 +1,28 @@
+class Solution {
+    private:
+    unordered_map<int, int> inorderIndex; // value -> index map
+    int preorderIndex = 0;
+
+    TreeNode* buildTreeHelper(vector<int>& preorder, vector<int>& inorder, int inLeft, int inRight) {
+        if (inLeft > inRight) return nullptr;
+
+        int rootVal = preorder[this->preorderIndex++];
+        TreeNode* root = new TreeNode(rootVal);
+
+        int idx = inorderIndex[rootVal];
+
+        root->left = buildTreeHelper(preorder, inorder, inLeft, idx - 1);
+        root->right = buildTreeHelper(preorder, inorder, idx + 1, inRight);
+
+        return root;
+    }
+public:
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+         for (int i = 0; i < inorder.size(); ++i) {
+            inorderIndex[inorder[i]] = i;
+        }
+
+        return buildTreeHelper(preorder, inorder, 0, inorder.size() - 1);
+    }
+    
+};
